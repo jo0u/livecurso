@@ -16,10 +16,18 @@
 
    @foreach($tweets as $tweet)
     
-    {{$tweet->user->name }} -- {{$tweet->content}} <br>
+   {{$tweet->user->name }} -- {{$tweet->content}} 
+  
+   @if($tweet->likes->count())
+
+     <a href="">Descurti</a><br>
+
+     @else
+     <a href="">Curti</a><br>
+     @endif
 
    @endforeach
-
+   
    <hr>
    <div>
         {{$tweets->links()}}

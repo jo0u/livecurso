@@ -63,8 +63,8 @@ button:hover {
 
 /* Estilos para o SVG */
 svg {
-    width: 20%; /* Ajuste o valor conforme necessário */
-    height: 20%; /* Ajuste o valor conforme necessário */
+    width: 10%; /* Ajuste o valor conforme necessário */
+    height: 10%; /* Ajuste o valor conforme necessário */
     display: block; /* Garante que a largura e altura sejam aplicadas corretamente */
     margin: 0 auto; /* Centraliza o SVG */
 }
