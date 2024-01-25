@@ -20,10 +20,10 @@
   
    @if($tweet->likes->count())
 
-     <a href="">Descurti</a><br>
+   <a href="#" wire:click.prevent="unLike({{$tweet->id}})">Descurti</a><br>
 
      @else
-     <a href="">Curti</a><br>
+     <a href="#" wire:click.prevent="like({{$tweet->id}})">Curti</a><br>
      @endif
 
    @endforeach
